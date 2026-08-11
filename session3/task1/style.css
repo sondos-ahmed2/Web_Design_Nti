@@ -1,0 +1,22 @@
+.sec{
+    margin: auto;
+    width: 50%;
+ line-height: 2rem;
+    background-color: rgb(255, 255, 255);
+    height: fit-content;    
+}
+.div1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: #125780;
+}
+/* .div2{
+    text-indent: 2%;
+} */
+.but{
+    background-color: #2b95d1;
+    color: rgb(255, 255, 255);
+   width: 50%;
+   padding: 2px 2px;
+   margin-left:180px ;
+}
