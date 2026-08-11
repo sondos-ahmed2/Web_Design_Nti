@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>second web page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="full">
+    <h2 class="head">Survey Form</h2>
+    <div class="content">
+        <p>Let us know how we can improve freeCodeCamp</p>
+        <form>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" required placeholder="Enter your name"><br>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required placeholder="Enter your email"><br>
+            <label for="age">Age</label>
+            <input type="number" name="age" id="age" required placeholder="Age" min="0" max="100">
+
+            <p class="para">Which option best describes your current role?</p>
+            <select name="role">
+                <option value="student">Student</option>
+                <option value="graduate">Graduate</option>
+            </select>
+
+            <div class="options">
+                <p class="para">How likely is that you would recommend freeCodeCamp to a friend?</p>
+                <input type="radio" name="recommend" id="definitely">
+                <label for="definitely">Definitely</label><br>
+                <input type="radio" name="recommend" id="maybe">
+                <label for="maybe">Maybe</label><br>
+                <input type="radio" name="recommend" id="not sure">
+                <label for="not sure">Not sure</label><br>
+
+                <p class="para">What do you like most in FCC:</p>
+                <select name="FCC">
+                    <option disabled selected>Select an option</option>
+                </select>
+
+                <p class="para">Things that should be improved in the future (Check all that apply):</p>
+                <input type="checkbox" name="1" id="Front">
+                <label for="Front">Front-end projects </label>
+                <br>
+                <input type="checkbox" name="2" id="Back">
+                <label for="Back">Back-end projects </label>
+                <br>
+                <input type="checkbox" name="3" id="Data">
+                <label for="Data">Data Visualization </label>
+            </div>
+
+        </form>
+    </div>
+</body>
+
+</html>
