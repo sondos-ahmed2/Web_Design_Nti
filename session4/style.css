@@ -1,0 +1,44 @@
+:root {
+  --muted: #acacac;
+  --light: #ffffff;
+  --primary: #5837e0;
+  --secondary: #fe9e0c;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.inline-block {
+  display: inline-block;
+}
+.container {
+  background-color: var(--primary);
+  padding: 1.5%;
+  width: 60%;
+  margin: 15% auto;
+  height: 20rem;
+}
+.card {
+  background-color: var(--light);
+  width: calc(100% / 4 -2%);
+  padding: 1%;
+  margin: 1%;
+}
+.container-heading {
+  color: var(--light);
+  line-height: 2rem;
+}
+.center {
+  text-align: center;
+}
+.card-p {
+  color: var(--muted);
+}
+.div-icon {
+  background-color: var(--secondary);
+  vertical-align: top;
+}
+.cards {
+  margin: 10% auto;
+}
