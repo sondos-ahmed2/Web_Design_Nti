@@ -318,6 +318,13 @@ nav a {
   padding: 15px 40px;
   border: none;
 }
-#h6-sec6{
-    color: #8EC2F2;
+#h6-sec6 {
+  color: #8ec2f2;
+}
+.sec6-header h2 {
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+.sec6-header h6{
+    color: var(--primary);
 }
